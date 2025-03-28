@@ -3,9 +3,13 @@
     padding: 0;
     margin: 0;
     }
-.circle-container {
-    background-color: beige;
-    /* 코드 작성 */
+    .circle-container {
+        background-color: beige;
+        /* 코드 작성 */
+        display:grid;
+        grid-template-columns: 100px 100px 100px ;
+        grid-template-rows: 100px 100px 100px ;
+        gap: 120px;
 }
 .circle {
     border-radius: 50%;
@@ -16,4 +20,8 @@
     font-weight: bold;
     font-size: 50px;
     /* 코드 작성 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
