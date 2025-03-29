@@ -5,9 +5,15 @@
     }
 .circle-container {
     background-color: beige;
-    /* 코드 작성 */
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(3,33%);
+    gap:10px;
 }
 .circle {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     background-color: burlywood;
     width: 30vw;
@@ -15,5 +21,4 @@
     margin-top: 1vw;
     font-weight: bold;
     font-size: 50px;
-    /* 코드 작성 */
 }
