@@ -4,16 +4,20 @@
     margin: 0;
     }
 .circle-container {
-    background-color: beige;
-    /* 코드 작성 */
+    background-color: rgb(255, 210, 210);
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center;
 }
 .circle {
     border-radius: 50%;
-    background-color: burlywood;
+    background-color: rgb(255, 96, 189);
     width: 30vw;
     height: 30vw;
     margin-top: 1vw;
     font-weight: bold;
     font-size: 50px;
-    /* 코드 작성 */
+    display : flex;
+    justify-content : center;
+    align-items: center;
 }
