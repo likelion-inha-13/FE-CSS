@@ -9,6 +9,9 @@ body {
   display: flex;
   flex-direction: column; 
   /* 코드 작성 */
+  flex-direction: row-reverse;
+
+
 }
 
 .box {
@@ -21,6 +24,8 @@ body {
   justify-content: center;
   align-items: center;
   /* 코드 작성 */
+  flex-grow: 1;
+
 }
 
 .box-1 {
