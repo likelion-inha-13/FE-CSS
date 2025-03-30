@@ -5,7 +5,10 @@
     }
 .circle-container {
     background-color: beige;
-    /* 코드 작성 */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
 }
 .circle {
     border-radius: 50%;
@@ -15,5 +18,16 @@
     margin-top: 1vw;
     font-weight: bold;
     font-size: 50px;
-    /* 코드 작성 */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.circle:nth-child(1) {background-color: green;}
+.circle:nth-child(2) {background-color: palegreen;}
+.circle:nth-child(3) {background-color: chartreuse;}
+.circle:nth-child(7) {background-color: violet;}
+.circle:nth-child(8) {background-color: fuchsia;}
+.circle:nth-child(9) {background-color: deeppink;}
+
+
