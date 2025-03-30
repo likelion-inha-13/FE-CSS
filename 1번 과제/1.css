@@ -5,7 +5,9 @@
     }
 .circle-container {
     background-color: beige;
-    /* 코드 작성 */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .circle {
     border-radius: 50%;
@@ -15,5 +17,18 @@
     margin-top: 1vw;
     font-weight: bold;
     font-size: 50px;
-    /* 코드 작성 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+/* 원별로 색깔 지정 */
+.circle:nth-child(1) {background-color: #ff99c8;}
+.circle:nth-child(2) {background-color: #ffe6a7;}
+.circle:nth-child(3) {background-color: #b7e4c7;}
+.circle:nth-child(4) {background-color: #a9def9;}
+.circle:nth-child(5) {background-color: #e4c1f9;}
+.circle:nth-child(6) {background-color: #ced4da;}
+.circle:nth-child(7) {background-color: #fed9b7;}
+.circle:nth-child(8) {background-color: #d5bdaf;}
+.circle:nth-child(9) {background-color: #ccd5ae;}
