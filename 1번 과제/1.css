@@ -5,7 +5,16 @@
     }
 .circle-container {
     background-color: beige;
-    /* 코드 작성 */
+    display: grid;  
+    /* 3x3 정렬을 위한 그리드 레이아웃 */
+    grid-template-columns: repeat(3,1fr); 
+    /* 3개 동일 너비 열  */
+    justify-items: center; 
+    /* 가로에서 가운데 정렬 */
+    align-content: center ;
+    /* 세로에서 가운데 정렬 */
+
+    
 }
 .circle {
     border-radius: 50%;
@@ -15,5 +24,10 @@
     margin-top: 1vw;
     font-weight: bold;
     font-size: 50px;
-    /* 코드 작성 */
+    display: flex; 
+    /* 텍스트 정렬 위한 플렉스 박스  */
+    justify-content: center;
+    align-items: center;
+
+   
 }
