@@ -2,24 +2,39 @@
 
 #wrapper {
     width: 700px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 2.5fr 5.5fr;
+
   }
   .box {
-    padding: 15px;
+    padding: 30px;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   .box1 {
     background-color: #3689ff;
+    grid-column: 1/ span 2;
+    grid-row: 1;
   }
  .box2 {
     background-color: #00cf12;
+    grid-column: 1;
+    grid-row: 2 ;
   }
   .box3 {
     background-color: #ff9019;
+    grid-column: 3;
+    grid-row: 1;
  }
  .box4 {
     background-color: #ffd000;
+    grid-row: 2;
+    grid-column: 3;
   }
