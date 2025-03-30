@@ -5,7 +5,11 @@
     }
 .circle-container {
     background-color: beige;
-    /* 코드 작성 */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    place-items: center;
+
 }
 .circle {
     border-radius: 50%;
@@ -15,5 +19,7 @@
     margin-top: 1vw;
     font-weight: bold;
     font-size: 50px;
-    /* 코드 작성 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
